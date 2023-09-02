@@ -162,6 +162,6 @@ In our project we use two DynamoDB tables:
 # Author
 The Command Control Appointment Scheduler Using Alexa was developed by :
     -@jahnaviy26
-    -Repository :
+    -Repository : [Repository Link](https://github.com/jahnaviy26/Command_Control_Appointment_Scheduler_Using_Alexa)
 
   
