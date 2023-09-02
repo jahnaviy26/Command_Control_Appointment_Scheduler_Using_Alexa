@@ -5,7 +5,9 @@ command-controlled appointment scheduler using Alexa would be to create a hands-
 # Solution Overview
 The Doctor Appointment Scheduler skill is developed using the Alexa Skills Kit (ASK) and utilizes AWS Lambda for serverless processing. It makes use of AWS DynamoDB for storing patient and doctor details, integrates with the Google Calendar API to check doctor availability, and employs Amazon Simple Email Service (SES) for sending email notifications
 The following outlines the primary components of the solution:
+
 **1.New User Registration:** New patients can create an account by providing essential information such as their name, age, gender, and email address. The skill ensures email verification to confirm the user's identity securely.
+
 **2.Existing User Login:** Existing patients can log in using their patient ID. In case they forget their patient ID, they have the option to verify their identity by entering forgot ID.
 **3.Doctor Availability Check:** The skill integrates with the Google Calendar API to access doctors' schedules and availability. Patients can inquire about available doctors based on their specialization, date, and time preferences.
 **4.Appointment Booking:** Patients can effortlessly schedule appointments with their chosen doctors, taking into account the availability retrieved from the Google Calendar API. Once an appointment is booked, the skill reserves the slot in the doctor's calendar to avoid overlapping appointments.
