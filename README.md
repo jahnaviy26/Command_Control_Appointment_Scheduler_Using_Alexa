@@ -125,14 +125,16 @@ In our project we use two DynamoDB tables:
       communication).
      -Usage: When a new patient uses the skill, their registration information is collected and stored in this table. It is also used to retrieve the patient's 
       details when they return to the skill.
-     -Patient_Registration csv file: 
+      
+     *Patient_Registration csv file: [user/patient data](https://github.com/jahnaviy26/Command_Control_Appointment_Scheduler_Using_Alexa/blob/main/user_info_example.csv)
      
    **2.Doctor calendar Table:**
      -Purpose: This table is used to store the availability details of doctors for scheduling appointments.
      -Attributes: - doctor_name: The name of the doctor. - specialization: The medical specialization of the doctor. - calendar_id: The unique identifier for the 
       doctor's Google Calendar. -Usage: The skill checks this table to find available doctors based on user-requested medical specialization and schedules 
       appointments by updating the doctors' calendars with the appointment details.
-     -Doctor calendar table csv file: 
+      
+     *Doctor calendar table csv file: [doctor info](https://github.com/jahnaviy26/Command_Control_Appointment_Scheduler_Using_Alexa/blob/main/doctor_info_example.csv)
 
 # Emails you get while working with the skill
   Using the unverified email in [AWS SES](https://aws.amazon.com/ses/) to verify the email as the first step.
@@ -161,7 +163,7 @@ In our project we use two DynamoDB tables:
 
 # Author
 The Command Control Appointment Scheduler Using Alexa was developed by :
-    -@jahnaviy26
+    *@jahnaviy26
     -Repository : [Repository Link](https://github.com/jahnaviy26/Command_Control_Appointment_Scheduler_Using_Alexa)
 
   
