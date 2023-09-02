@@ -24,6 +24,7 @@ The following outlines the primary components of the solution:
 
 # Tech Stack
 The Hospital Appointment Scheduler skill is powered by a sophisticated tech stack that includes:
+
 **1.Alexa Skills Kit (ASK):** A cutting-edge set of APIs and tools that enable seamless voice-driven interactions.
 
 **2.AWS Lambda:** A robust serverless compute service that efficiently handles code execution in response to Alexa requests.
@@ -63,6 +64,7 @@ The Hospital Appointment Scheduler skill is powered by a sophisticated tech stac
 
 # Lambda Function Code
 The Lambda function for the Hospital Appointment Scheduler skill is responsible for handling user requests and interacting with the backend services. It is written in Python and integrated with the ASK SDK for Alexa interactions. The code is structured into several intent handlers to handle different user intents, such as registration, login, appointment booking, doctor recommendations, and more.
+
 **Code Link:** [click here](https://github.com/jahnaviy26/Command_Control_Appointment_Scheduler_Using_Alexa/blob/main/LambdaFunction.py)
 
 # Skill Invocation and User Flow
@@ -106,6 +108,7 @@ New patients can efficiently register and schedule appointments through the Hosp
 
 # Working with Returning Patients
 Returning patients can conveniently access their accounts and manage appointments through the Hospital Appointment Scheduler skill. Here's a step-by-step guide on how returning patients can use the skill:
+
    **Skill Invocation:** Returning patients can launch the skill by saying "Alexa, open Hospital Appointment Scheduler."
    
    **Returning Patient Login:** Alexa will prompt the returning patient to provide their unique patient ID for authentication. The patient can say, "My patient 
@@ -130,7 +133,7 @@ In our project we use two DynamoDB tables:
      -Usage: When a new patient uses the skill, their registration information is collected and stored in this table. It is also used to retrieve the patient's 
       details when they return to the skill.
       
-     -Patient_Registration csv file: [user/patient data](https://github.com/jahnaviy26/Command_Control_Appointment_Scheduler_Using_Alexa/blob/main/user_info_example.csv)
+     -Patient_Registration csv file: [user/patient info](https://github.com/jahnaviy26/Command_Control_Appointment_Scheduler_Using_Alexa/blob/main/user_info_example.csv)
      
    **2.Doctor calendar Table:**
      -Purpose: This table is used to store the availability details of doctors for scheduling appointments.
@@ -138,7 +141,7 @@ In our project we use two DynamoDB tables:
       doctor's Google Calendar. -Usage: The skill checks this table to find available doctors based on user-requested medical specialization and schedules 
       appointments by updating the doctors' calendars with the appointment details.
       
-     -Doctor calendar table csv file: [doctor info](https://github.com/jahnaviy26/Command_Control_Appointment_Scheduler_Using_Alexa/blob/main/doctor_info_example.csv)
+     -Doctor calendar table csv file: [Doctor info]()
 
 # Emails you get while working with the skill
   Using the unverified email in [AWS SES](https://aws.amazon.com/ses/) to verify the email as the first step.
