@@ -135,11 +135,12 @@ In our project we use two DynamoDB tables:
      -Doctor calendar table csv file: 
 
 # Emails you get while working with the skill
-  Using the unverified email in [AWS SES](https://aws.amazon.com/ses/)to verify the email as the first step.
+  Using the unverified email in [AWS SES](https://aws.amazon.com/ses/) to verify the email as the first step.
   **Verification Email**
   ![](https://github.com/jahnaviy26/Command_Control_Appointment_Scheduler_Using_Alexa/assets/97887220/f5e4c5e0-c2df-4acd-a9a5-58323ec06edc)
   
   **UserDetails Email**
+  
   ![](https://github.com/jahnaviy26/Command_Control_Appointment_Scheduler_Using_Alexa/assets/97887220/116e8fe6-6e21-439e-b284-f0460dfdf052)
   
   **Appointment Scheduled Email**
@@ -160,7 +161,6 @@ In our project we use two DynamoDB tables:
 
 # Author
 The Command Control Appointment Scheduler Using Alexa was developed by :
-
     -@jahnaviy26
     -Repository :
 
