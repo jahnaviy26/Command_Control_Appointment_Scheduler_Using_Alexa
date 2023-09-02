@@ -131,17 +131,14 @@ In our project we use two DynamoDB tables:
       patient_id,full_name,age, gender,date_of_birth,Father_name, email(The email address of the patient used for verification and 
       communication).
      -Usage: When a new patient uses the skill, their registration information is collected and stored in this table. It is also used to retrieve the patient's 
-      details when they return to the skill.
+      details when they return to the skill.Refer to the user_info_example.csv file for reference.
       
-     -Patient_Registration csv file: [user/patient info](https://github.com/jahnaviy26/Command_Control_Appointment_Scheduler_Using_Alexa/blob/main/user_info_example.csv)
-     
    **2.Doctor calendar Table:**
      -Purpose: This table is used to store the availability details of doctors for scheduling appointments.
      -Attributes: - doctor_name: The name of the doctor. - specialization: The medical specialization of the doctor. - calendar_id: The unique identifier for the 
       doctor's Google Calendar. -Usage: The skill checks this table to find available doctors based on user-requested medical specialization and schedules 
-      appointments by updating the doctors' calendars with the appointment details.
+      appointments by updating the doctors' calendars with the appointment details. Refer to the Doctor_info_example.csv file for reference.
       
-     -Doctor calendar table csv file: [Doctor info]()
 
 # Emails you get while working with the skill
   Using the unverified email in [AWS SES](https://aws.amazon.com/ses/) to verify the email as the first step.
