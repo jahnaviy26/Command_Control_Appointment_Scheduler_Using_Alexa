@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "alexa-skill-389220",
+    "private_key_id": "deb98e1012f9003cf53234dd507b36535d69deec",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCNmAJ5qDrwxkms\n7aFY2XgxYai6MXiG5sdSYEJbmoTgwNuArVxAOhPBVMW1SNjkfmHJERgFzUMak9/a\nO9Uu63lURH+pbHsN0M0ttLx2o8zfI3JhJgmaqVVLSOTtMr9JzMDzoHuttcS1VSQ3\nz7hlnr73tWvgXpCIVa+Ou5Yl2FoJYpCnWfdV0ARpZCIbhEFku/a4Xi6Eg5qBNrxW\nVwvuL6o5R38BjDd1wPfdilmqtL2a1rIPP3/sjClhyGF/4RRUUvzsRnWILal0Qi42\n6iUWWNxMsO6SHJ1I5iJGSdB/z3yQn3QBeA0U2cJm2Kmo+hMwz+SkZWwehFxIYfcP\n4s4dqqIhAgMBAAECggEANuNPSlPBjWaAVu3DFwsuQY5G9u6Id1rst20jLBlpGysH\nrAkH8snQsKgpAA5eLa0kQOpEcrNQKPRb2WBKUqbrYJQxHL81sHRZpTcju6XhnDpE\nc45oOLEdpFJ8k8qRRo192rNCXmNQ/q4jnRMDuzjfdGy6hb6CrqbwqBblrIQC2xHr\npK50DpDLW6s2N07Lpa0EM6TaCmj6av7VOLTMRzeklIBaqN7T23NHXDBuQWKlPfci\noT3xCB2B3CDSjm0mKun7UsW2dDuaK7B7mj6hxA/40AxMLTGQe4idu3elKHysSuRL\nLtXmeH6XMdesw/qGjdSLnHwjhcCGjueQ7ccDGE+IxQKBgQDFsoELOok+QGDMoqGq\nuoOHvVCk1fL8hQ73B/Jl9ZTDWMWmT/n/H6d+GJr69WFXSdxeYUcvE9mZyUwmZbDX\n+hc09pa1LdarKfFRHfRBXVrYC+dqJ6AfeNoJQW6KLadNj3q3kUE8ty2xvMhhJxWf\ni9BzNkZ5kW/caRH/ogI4bqAmgwKBgQC3WeA9m28kbwVFD+AHjNHiM6S2Zl/1TONG\n3iNM+63mCgYsPN4KUrPIbw2OMRwSa9GKTUcaa9z0PvdxSucFqk/fK0ETegKv5ngC\nSJIhKeeq6Y/JBg3KneJY2CRlOZoDS77zNEbXzG9qjgBLnVGB0aWdS0IBIh1k5w9l\ndsP8954TiwKBgQCU3jP6BpwuOkAqGBTxAP3mixJc7ZbJvFBmiJ9pU6Iv73r2H6c7\nC9UOSOz7KSehmUbN8yatNp9XBJPJHi4qlHJBOaaGy/uobC8BTDMPvYKYyW37K9eR\nm2lkKtdYScR/zRk1fbXISI+qFWQ2dD3+JERVXXt4M6IuMRiSjKZrZDJIjQKBgQCy\nk1C58CdhntfNGdciw16wJ4hnNnKDYa2CmlxbYE1Q3baBY48HEuGTd8YGFYK31lcx\nkm6MJz3+jU1HBKLZe7VrMJ+jLpRrada8sp3QuxWt+ulV6xWHoBqSWYGpLV75ks6Z\n5PKSv8RMTZ2wB7sY622YM3JH1Eg4vGrccb4VJb7KXQKBgBCKwubg0ncNTVprQteC\nbox/3SFlT6JNIOhryTbksOejLTeBsifFKA3JyJFu0OvYsJ7/K78TC7CyGjPqk+/p\n9PeFxkobk0G0HU3+Zys2KmpoA6rOaRFSAZvMjNPbp0CK74xecPTShs50fh6iEH0i\nk+3UxLtRYUHSjzBmybgzfcno\n-----END PRIVATE KEY-----\n",
+    "client_email": "alexa-488@alexa-skill-389220.iam.gserviceaccount.com",
+    "client_id": "112282814104890710074",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/alexa-488%40alexa-skill-389220.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
